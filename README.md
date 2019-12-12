@@ -45,3 +45,7 @@ Windows (With AutoHotKey):
 1. Port to Autokey on Linux so the abbreviations can be used anywhere?
 
 2. Port to some program on Mac so abbreviations can be used anywhere?
+
+**Other**
+
+Let me know if something isn't working and I'll try to look at it! Happy text expanding!
