@@ -34,7 +34,7 @@ Windows (With AutoHotKey):
 
 1. Clone/Download this repo (or just the yublin.ahk file).
 
-2. Install AutoHotKey (if you haven't already).
+2. Install [AutoHotKey](https://www.autohotkey.com/download/) (if you haven't already).
 
 3. Right click the "yublin.ahk" file and click "Run Script".
 
