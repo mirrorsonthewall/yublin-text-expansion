@@ -2,7 +2,7 @@
 
 Yublin is a shorthand created by Jon Aquino to make it faster to write the most common English words.
 
-You cand read more and see what the abbreviations are [here.](https://jonaquino.blogspot.com/2007/06/yublin-shorthand-for-speed-writing.html)
+You can read more and see what the abbreviations are [here.](https://jonaquino.blogspot.com/2007/06/yublin-shorthand-for-speed-writing.html)
 
 I tried to set up the Yublin shorthand abbreviations in text expansion programs to save a few keystrokes.
 
