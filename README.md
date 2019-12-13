@@ -12,6 +12,22 @@ I did this just to test out how it felt.
 
 **Installation**
 
+Cross-Platform (Linux, Mac, Windows) in Atom Text Editor:
+
+1. Clone/Download this repo (or just the snippets.cson file).
+
+2. Download [Atom Text Editor](https://atom.io/) if you haven't already.
+
+3. Find your ~/.atom folder (it is a hidden folder).
+
+4. Either open the snippets.cson file in that folder and copy and paste the contents of the snippets.cson file from this project (if you have other snippets in your snippets.cson file that you want to keep), or drop the file from this project in to that folder and overwrite the file that is already there (if you don't already have any snippets you need to keep).
+
+5. Optional Note: It shouldn't interfere with the Yublin snippets, but you may want to go to settings and disable some Autocomplete options as you'll see a lot of possible text pop up as you type that you could autocomplete to.
+
+This also only works with plain text files I believe; you can make it work with other ones by changing the first line of the snippets code ('.source.gfm, .comment, .string, .text') to whatever kind of file you are editing. For instance, if you are editing a Javascript file that ends in .js, the code could be changed to ('.source.js'), or you could copy the entire snippets list and paste it again in the same file and change the code (if you want to keep it for multiple kinds of file formats).
+
+This was only tested on Mac but should work in the same (or a similar way) in Linux and Windows.
+
 Linux (in Gedit - Mac Too?):
 
 1. Clone/Download this repo (or just the yublin.xml file).
@@ -43,8 +59,6 @@ Windows (With AutoHotKey):
 **Future**
 
 1. Port to Autokey on Linux so the abbreviations can be used anywhere?
-
-2. Port to some program on Mac so abbreviations can be used anywhere?
 
 **Other**
 
