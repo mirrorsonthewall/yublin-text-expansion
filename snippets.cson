@@ -1,0 +1,1883 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.gfm, .comment, .string, .text':
+  'against':
+    'prefix': 'aa'
+    'body': 'against'
+  'about':
+    'prefix': 'ab'
+    'body': 'about'
+  'account':
+    'prefix': 'ac'
+    'body': 'account'
+  'asked':
+    'prefix': 'ad'
+    'body': 'asked'
+  'manner':
+    'prefix': 'ae'
+    'body': 'manner'
+  'after':
+    'prefix': 'af'
+    'body': 'after'
+  'again':
+    'prefix': 'ag'
+    'body': 'again'
+  'making':
+    'prefix': 'ai'
+    'body': 'making'
+  'seen':
+    'prefix': 'aj'
+    'body': 'seen'
+  'taken':
+    'prefix': 'ak'
+    'body': 'taken'
+  'always':
+    'prefix': 'al'
+    'body': 'always'
+  'almost':
+    'prefix': 'ao'
+    'body': 'almost'
+  'appeared':
+    'prefix': 'ap'
+    'body': 'appeared'
+  'another':
+    'prefix': 'ar'
+    'body': 'another'
+  'daughter':
+    'prefix': 'au'
+    'body': 'daughter'
+  'leave':
+    'prefix': 'av'
+    'body': 'leave'
+  'away':
+    'prefix': 'aw'
+    'body': 'away'
+  'anything':
+    'prefix': 'ay'
+    'body': 'anything'
+  'half':
+    'prefix': 'az'
+    'body': 'half'
+  'with':
+    'prefix': 'b'
+    'body': 'with'
+  'back':
+    'prefix': 'ba'
+    'body': 'back'
+  'among':
+    'prefix': 'bb'
+    'body': 'among'
+  'because':
+    'prefix': 'bc'
+    'body': 'because'
+  'behind':
+    'prefix': 'bd'
+    'body': 'behind'
+  'before':
+    'prefix': 'bf'
+    'body': 'before'
+  'being':
+    'prefix': 'bg'
+    'body': 'being'
+  'brother':
+    'prefix': 'bh'
+    'body': 'brother'
+  'business':
+    'prefix': 'bi'
+    'body': 'business'
+  'less':
+    'prefix': 'bj'
+    'body': 'less'
+  'black':
+    'prefix': 'bk'
+    'body': 'black'
+  'believe':
+    'prefix': 'bl'
+    'body': 'believe'
+  'became':
+    'prefix': 'bm'
+    'body': 'became'
+  'been':
+    'prefix': 'bn'
+    'body': 'been'
+  'both':
+    'prefix': 'bo'
+    'body': 'both'
+  'master':
+    'prefix': 'bp'
+    'body': 'master'
+  'mean':
+    'prefix': 'bq'
+    'body': 'mean'
+  'better':
+    'prefix': 'br'
+    'body': 'better'
+  'best':
+    'prefix': 'bs'
+    'body': 'best'
+  'between':
+    'prefix': 'bt'
+    'body': 'between'
+  'brought':
+    'prefix': 'bu'
+    'body': 'brought'
+  'above':
+    'prefix': 'bv'
+    'body': 'above'
+  'matter':
+    'prefix': 'bx'
+    'body': 'matter'
+  'used':
+    'prefix': 'bz'
+    'body': 'used'
+  'said':
+    'prefix': 'c'
+    'body': 'said'
+  'came':
+    'prefix': 'ca'
+    'body': 'came'
+  'sort':
+    'prefix': 'cb'
+    'body': 'sort'
+  'character':
+    'prefix': 'cc'
+    'body': 'character'
+  'called':
+    'prefix': 'cd'
+    'body': 'called'
+  'come':
+    'prefix': 'ce'
+    'body': 'come'
+  'comfort':
+    'prefix': 'cf'
+    'body': 'comfort'
+  'coming':
+    'prefix': 'cg'
+    'body': 'coming'
+  'child':
+    'prefix': 'ch'
+    'body': 'child'
+  'children':
+    'prefix': 'ci'
+    'body': 'children'
+  'care':
+    'prefix': 'cj'
+    'body': 'care'
+  'call':
+    'prefix': 'cl'
+    'body': 'call'
+  'company':
+    'prefix': 'cm'
+    'body': 'company'
+  'certain':
+    'prefix': 'cn'
+    'body': 'certain'
+  'could':
+    'prefix': 'co'
+    'body': 'could'
+  'chapter':
+    'prefix': 'cp'
+    'body': 'chapter'
+  'cried':
+    'prefix': 'cr'
+    'body': 'cried'
+  'close':
+    'prefix': 'cs'
+    'body': 'close'
+  'cannot':
+    'prefix': 'ct'
+    'body': 'cannot'
+  'course':
+    'prefix': 'cu'
+    'body': 'course'
+  'conversation':
+    'prefix': 'cv'
+    'body': 'conversation'
+  'short':
+    'prefix': 'cw'
+    'body': 'short'
+  'others':
+    'prefix': 'cx'
+    'body': 'others'
+  'country':
+    'prefix': 'cy'
+    'body': 'country'
+  'it\'s':
+    'prefix': 'cz'
+    'body': 'it\'s'
+  'had':
+    'prefix': 'd'
+    'body': 'had'
+  'days':
+    'prefix': 'da'
+    'body': 'days'
+  'that\'s':
+    'prefix': 'db'
+    'body': 'that\'s'
+  'doctor':
+    'prefix': 'dc'
+    'body': 'doctor'
+  'added':
+    'prefix': 'dd'
+    'body': 'added'
+  'dear':
+    'prefix': 'de'
+    'body': 'dear'
+  'doing':
+    'prefix': 'dg'
+    'body': 'doing'
+  'death':
+    'prefix': 'dh'
+    'body': 'death'
+  'different':
+    'prefix': 'di'
+    'body': 'different'
+  'read':
+    'prefix': 'dj'
+    'body': 'read'
+  'dark':
+    'prefix': 'dk'
+    'body': 'dark'
+  'deal':
+    'prefix': 'dl'
+    'body': 'deal'
+  'down':
+    'prefix': 'dn'
+    'body': 'down'
+  'deep':
+    'prefix': 'dp'
+    'body': 'deep'
+  'already':
+    'prefix': 'dq'
+    'body': 'already'
+  'door':
+    'prefix': 'dr'
+    'body': 'door'
+  'does':
+    'prefix': 'ds'
+    'body': 'does'
+  'don\'t':
+    'prefix': 'dt'
+    'body': 'don\'t'
+  'doubt':
+    'prefix': 'du'
+    'body': 'doubt'
+  'drew':
+    'prefix': 'dw'
+    'body': 'drew'
+  'either':
+    'prefix': 'dx'
+    'body': 'either'
+  'ready':
+    'prefix': 'dy'
+    'body': 'ready'
+  'means':
+    'prefix': 'dz'
+    'body': 'means'
+  'her':
+    'prefix': 'e'
+    'body': 'her'
+  'began':
+    'prefix': 'ea'
+    'body': 'began'
+  'everybody':
+    'prefix': 'eb'
+    'body': 'everybody'
+  'each':
+    'prefix': 'ec'
+    'body': 'each'
+  'heard':
+    'prefix': 'ed'
+    'body': 'heard'
+  'three':
+    'prefix': 'ee'
+    'body': 'three'
+  'herself':
+    'prefix': 'ef'
+    'body': 'herself'
+  'enough':
+    'prefix': 'eh'
+    'body': 'enough'
+  'evening':
+    'prefix': 'ei'
+    'body': 'evening'
+  'talk':
+    'prefix': 'ej'
+    'body': 'talk'
+  'week':
+    'prefix': 'ek'
+    'body': 'week'
+  'else':
+    'prefix': 'el'
+    'body': 'else'
+  'seems':
+    'prefix': 'em'
+    'body': 'seems'
+  'even':
+    'prefix': 'en'
+    'body': 'even'
+  'second':
+    'prefix': 'eo'
+    'body': 'second'
+  'help':
+    'prefix': 'ep'
+    'body': 'help'
+  'hard':
+    'prefix': 'eq'
+    'body': 'hard'
+  'hear':
+    'prefix': 'er'
+    'body': 'hear'
+  'eyes':
+    'prefix': 'es'
+    'body': 'eyes'
+  'letter':
+    'prefix': 'et'
+    'body': 'letter'
+  'creature':
+    'prefix': 'eu'
+    'body': 'creature'
+  'ever':
+    'prefix': 'ev'
+    'body': 'ever'
+  'afterwards':
+    'prefix': 'ew'
+    'body': 'afterwards'
+  'except':
+    'prefix': 'ex'
+    'body': 'except'
+  'every':
+    'prefix': 'ey'
+    'body': 'every'
+  'turn':
+    'prefix': 'ez'
+    'body': 'turn'
+  'for':
+    'prefix': 'f'
+    'body': 'for'
+  'face':
+    'prefix': 'fa'
+    'body': 'face'
+  'thus':
+    'prefix': 'fb'
+    'body': 'thus'
+  'fact':
+    'prefix': 'fc'
+    'body': 'fact'
+  'friend':
+    'prefix': 'fd'
+    'body': 'friend'
+  'felt':
+    'prefix': 'fe'
+    'body': 'felt'
+  'effect':
+    'prefix': 'ff'
+    'body': 'effect'
+  'feeling':
+    'prefix': 'fg'
+    'body': 'feeling'
+  'further':
+    'prefix': 'fh'
+    'body': 'further'
+  'first':
+    'prefix': 'fi'
+    'body': 'first'
+  'along':
+    'prefix': 'fj'
+    'body': 'along'
+  'feel':
+    'prefix': 'fl'
+    'body': 'feel'
+  'form':
+    'prefix': 'fm'
+    'body': 'form'
+  'find':
+    'prefix': 'fn'
+    'body': 'find'
+  'found':
+    'prefix': 'fo'
+    'body': 'found'
+  'glad':
+    'prefix': 'fp'
+    'body': 'glad'
+  'sense':
+    'prefix': 'fq'
+    'body': 'sense'
+  'father':
+    'prefix': 'fr'
+    'body': 'father'
+  'friends':
+    'prefix': 'fs'
+    'body': 'friends'
+  'often':
+    'prefix': 'ft'
+    'body': 'often'
+  'full':
+    'prefix': 'fu'
+    'body': 'full'
+  'five':
+    'prefix': 'fv'
+    'body': 'five'
+  'fellow':
+    'prefix': 'fw'
+    'body': 'fellow'
+  'family':
+    'prefix': 'fy'
+    'body': 'family'
+  'white':
+    'prefix': 'fz'
+    'body': 'white'
+  'which':
+    'prefix': 'g'
+    'body': 'which'
+  'gave':
+    'prefix': 'ga'
+    'body': 'gave'
+  'can\'t':
+    'prefix': 'gb'
+    'body': 'can\'t'
+  'wanted':
+    'prefix': 'gc'
+    'body': 'wanted'
+  'good':
+    'prefix': 'gd'
+    'body': 'good'
+  'gone':
+    'prefix': 'ge'
+    'body': 'gone'
+  'mine':
+    'prefix': 'gf'
+    'body': 'mine'
+  'going':
+    'prefix': 'gg'
+    'body': 'going'
+  'high':
+    'prefix': 'gh'
+    'body': 'high'
+  'give':
+    'prefix': 'gi'
+    'body': 'give'
+  'fell':
+    'prefix': 'gj'
+    'body': 'fell'
+  'bear':
+    'prefix': 'gk'
+    'body': 'bear'
+  'girl':
+    'prefix': 'gl'
+    'body': 'girl'
+  'gentlemen':
+    'prefix': 'gm'
+    'body': 'gentlemen'
+  'gentleman':
+    'prefix': 'gn'
+    'body': 'gentleman'
+  'fear':
+    'prefix': 'gp'
+    'body': 'fear'
+  'state':
+    'prefix': 'gq'
+    'body': 'state'
+  'great':
+    'prefix': 'gr'
+    'body': 'great'
+  'thoughts':
+    'prefix': 'gs'
+    'body': 'thoughts'
+  'sight':
+    'prefix': 'gt'
+    'body': 'sight'
+  'ground':
+    'prefix': 'gu'
+    'body': 'ground'
+  'given':
+    'prefix': 'gv'
+    'body': 'given'
+  'grew':
+    'prefix': 'gw'
+    'body': 'grew'
+  'also':
+    'prefix': 'gx'
+    'body': 'also'
+  'angry':
+    'prefix': 'gy'
+    'body': 'angry'
+  'fine':
+    'prefix': 'gz'
+    'body': 'fine'
+  'that':
+    'prefix': 'h'
+    'body': 'that'
+  'hand':
+    'prefix': 'ha'
+    'body': 'hand'
+  'husband':
+    'prefix': 'hb'
+    'body': 'husband'
+  'church':
+    'prefix': 'hc'
+    'body': 'church'
+  'head':
+    'prefix': 'hd'
+    'body': 'head'
+  'himself':
+    'prefix': 'hf'
+    'body': 'himself'
+  'having':
+    'prefix': 'hg'
+    'body': 'having'
+  'whether':
+    'prefix': 'hh'
+    'body': 'whether'
+  'case':
+    'prefix': 'hj'
+    'body': 'case'
+  'thinking':
+    'prefix': 'hk'
+    'body': 'thinking'
+  'while':
+    'prefix': 'hl'
+    'body': 'while'
+  'thing':
+    'prefix': 'hn'
+    'body': 'thing'
+  'house':
+    'prefix': 'ho'
+    'body': 'house'
+  'hope':
+    'prefix': 'hp'
+    'body': 'hope'
+  'held':
+    'prefix': 'hq'
+    'body': 'held'
+  'here':
+    'prefix': 'hr'
+    'body': 'here'
+  'those':
+    'prefix': 'hs'
+    'body': 'those'
+  'heart':
+    'prefix': 'ht'
+    'body': 'heart'
+  'hour':
+    'prefix': 'hu'
+    'body': 'hour'
+  'heavy':
+    'prefix': 'hv'
+    'body': 'heavy'
+  'however':
+    'prefix': 'hw'
+    'body': 'however'
+  'walk':
+    'prefix': 'hx'
+    'body': 'walk'
+  'happy':
+    'prefix': 'hy'
+    'body': 'happy'
+  'lost':
+    'prefix': 'hz'
+    'body': 'lost'
+  'his':
+    'prefix': 'i'
+    'body': 'his'
+  'idea':
+    'prefix': 'ia'
+    'body': 'idea'
+  'silence':
+    'prefix': 'ic'
+    'body': 'silence'
+  'indeed':
+    'prefix': 'id'
+    'body': 'indeed'
+  'things':
+    'prefix': 'ig'
+    'body': 'things'
+  'wish':
+    'prefix': 'ih'
+    'body': 'wish'
+  'within':
+    'prefix': 'ii'
+    'body': 'within'
+  'water':
+    'prefix': 'ij'
+    'body': 'water'
+  'likely':
+    'prefix': 'ik'
+    'body': 'likely'
+  'till':
+    'prefix': 'il'
+    'body': 'till'
+  'times':
+    'prefix': 'im'
+    'body': 'times'
+  'into':
+    'prefix': 'io'
+    'body': 'into'
+  'impossible':
+    'prefix': 'ip'
+    'body': 'impossible'
+  'hold':
+    'prefix': 'iq'
+    'body': 'hold'
+  'fire':
+    'prefix': 'ir'
+    'body': 'fire'
+  'minutes':
+    'prefix': 'iu'
+    'body': 'minutes'
+  'live':
+    'prefix': 'iv'
+    'body': 'live'
+  'afraid':
+    'prefix': 'iw'
+    'body': 'afraid'
+  'bring':
+    'prefix': 'ix'
+    'body': 'bring'
+  'immediately':
+    'prefix': 'iy'
+    'body': 'immediately'
+  'honour':
+    'prefix': 'iz'
+    'body': 'honour'
+  'this':
+    'prefix': 'j'
+    'body': 'this'
+  'seeing':
+    'prefix': 'ja'
+    'body': 'seeing'
+  'dead':
+    'prefix': 'jb'
+    'body': 'dead'
+  'able':
+    'prefix': 'jc'
+    'body': 'able'
+  'arms':
+    'prefix': 'jd'
+    'body': 'arms'
+  'late':
+    'prefix': 'jf'
+    'body': 'late'
+  'opinion':
+    'prefix': 'jg'
+    'body': 'opinion'
+  'four':
+    'prefix': 'jh'
+    'body': 'four'
+  'none':
+    'prefix': 'ji'
+    'body': 'none'
+  'hair':
+    'prefix': 'jj'
+    'body': 'hair'
+  'sister':
+    'prefix': 'jk'
+    'body': 'sister'
+  'entered':
+    'prefix': 'jl'
+    'body': 'entered'
+  'sent':
+    'prefix': 'jm'
+    'body': 'sent'
+  'married':
+    'prefix': 'jn'
+    'body': 'married'
+  'longer':
+    'prefix': 'jp'
+    'body': 'longer'
+  'women':
+    'prefix': 'jq'
+    'body': 'women'
+  'hours':
+    'prefix': 'jr'
+    'body': 'hours'
+  'horse':
+    'prefix': 'js'
+    'body': 'horse'
+  'wonder':
+    'prefix': 'jt'
+    'body': 'wonder'
+  'just':
+    'prefix': 'ju'
+    'body': 'just'
+  'cold':
+    'prefix': 'jv'
+    'body': 'cold'
+  'please':
+    'prefix': 'jw'
+    'body': 'please'
+  'fair':
+    'prefix': 'jx'
+    'body': 'fair'
+  'lord':
+    'prefix': 'jy'
+    'body': 'lord'
+  'stay':
+    'prefix': 'jz'
+    'body': 'stay'
+  'they':
+    'prefix': 'k'
+    'body': 'they'
+  'interest':
+    'prefix': 'ka'
+    'body': 'interest'
+  'won\'t':
+    'prefix': 'kb'
+    'body': 'won\'t'
+  'walked':
+    'prefix': 'kd'
+    'body': 'walked'
+  'keep':
+    'prefix': 'ke'
+    'body': 'keep'
+  'taking':
+    'prefix': 'kg'
+    'body': 'taking'
+  'opened':
+    'prefix': 'kh'
+    'body': 'opened'
+  'kind':
+    'prefix': 'ki'
+    'body': 'kind'
+  'change':
+    'prefix': 'kj'
+    'body': 'change'
+  'laid':
+    'prefix': 'kk'
+    'body': 'laid'
+  'knowledge':
+    'prefix': 'kl'
+    'body': 'knowledge'
+  'strange':
+    'prefix': 'km'
+    'body': 'strange'
+  'know':
+    'prefix': 'kn'
+    'body': 'know'
+  'known':
+    'prefix': 'ko'
+    'body': 'known'
+  'feet':
+    'prefix': 'kq'
+    'body': 'feet'
+  'tears':
+    'prefix': 'kr'
+    'body': 'tears'
+  'knows':
+    'prefix': 'ks'
+    'body': 'knows'
+  'kept':
+    'prefix': 'kt'
+    'body': 'kept'
+  'body':
+    'prefix': 'ku'
+    'body': 'body'
+  'past':
+    'prefix': 'kv'
+    'body': 'past'
+  'knew':
+    'prefix': 'kw'
+    'body': 'knew'
+  'order':
+    'prefix': 'kx'
+    'body': 'order'
+  'need':
+    'prefix': 'ky'
+    'body': 'need'
+  'pleased':
+    'prefix': 'kz'
+    'body': 'pleased'
+  'all':
+    'prefix': 'l'
+    'body': 'all'
+  'last':
+    'prefix': 'la'
+    'body': 'last'
+  'dinner':
+    'prefix': 'lb'
+    'body': 'dinner'
+  'looked':
+    'prefix': 'ld'
+    'body': 'looked'
+  'like':
+    'prefix': 'le'
+    'body': 'like'
+  'life':
+    'prefix': 'lf'
+    'body': 'life'
+  'looking':
+    'prefix': 'lg'
+    'body': 'looking'
+  'light':
+    'prefix': 'lh'
+    'body': 'light'
+  'little':
+    'prefix': 'li'
+    'body': 'little'
+  'happened':
+    'prefix': 'lj'
+    'body': 'happened'
+  'look':
+    'prefix': 'lk'
+    'body': 'look'
+  'I\'ll':
+    'prefix': 'll'
+    'body': 'I\'ll'
+  'sitting':
+    'prefix': 'lm'
+    'body': 'sitting'
+  'alone':
+    'prefix': 'ln'
+    'body': 'alone'
+  'long':
+    'prefix': 'lo'
+    'body': 'long'
+  'lips':
+    'prefix': 'lp'
+    'body': 'lips'
+  'getting':
+    'prefix': 'lq'
+    'body': 'getting'
+  'large':
+    'prefix': 'lr'
+    'body': 'large'
+  'least':
+    'prefix': 'ls'
+    'body': 'least'
+  'left':
+    'prefix': 'lt'
+    'body': 'left'
+  'laughed':
+    'prefix': 'lu'
+    'body': 'laughed'
+  'love':
+    'prefix': 'lv'
+    'body': 'love'
+  'followed':
+    'prefix': 'lw'
+    'body': 'followed'
+  'there\'s':
+    'prefix': 'lx'
+    'body': 'there\'s'
+  'lady':
+    'prefix': 'ly'
+    'body': 'lady'
+  'besides':
+    'prefix': 'lz'
+    'body': 'besides'
+  'him':
+    'prefix': 'm'
+    'body': 'him'
+  'made':
+    'prefix': 'ma'
+    'body': 'made'
+  'soul':
+    'prefix': 'mc'
+    'body': 'soul'
+  'mind':
+    'prefix': 'md'
+    'body': 'mind'
+  'myself':
+    'prefix': 'mf'
+    'body': 'myself'
+  'morning':
+    'prefix': 'mg'
+    'body': 'morning'
+  'mother':
+    'prefix': 'mh'
+    'body': 'mother'
+  'might':
+    'prefix': 'mi'
+    'body': 'might'
+  'early':
+    'prefix': 'mj'
+    'body': 'early'
+  'make':
+    'prefix': 'mk'
+    'body': 'make'
+  'smile':
+    'prefix': 'ml'
+    'body': 'smile'
+  'moment':
+    'prefix': 'mm'
+    'body': 'moment'
+  'many':
+    'prefix': 'mn'
+    'body': 'many'
+  'more':
+    'prefix': 'mo'
+    'body': 'more'
+  'rose':
+    'prefix': 'mq'
+    'body': 'rose'
+  'most':
+    'prefix': 'ms'
+    'body': 'most'
+  'must':
+    'prefix': 'mt'
+    'body': 'must'
+  'much':
+    'prefix': 'mu'
+    'body': 'much'
+  'moved':
+    'prefix': 'mv'
+    'body': 'moved'
+  'aunt':
+    'prefix': 'mx'
+    'body': 'aunt'
+  'hundred':
+    'prefix': 'mz'
+    'body': 'hundred'
+  'and':
+    'prefix': 'n'
+    'body': 'and'
+  'name':
+    'prefix': 'na'
+    'body': 'name'
+  'nobody':
+    'prefix': 'nb'
+    'body': 'nobody'
+  'necessary':
+    'prefix': 'nc'
+    'body': 'necessary'
+  'answered':
+    'prefix': 'nd'
+    'body': 'answered'
+  'never':
+    'prefix': 'ne'
+    'body': 'never'
+  'nothing':
+    'prefix': 'ng'
+    'body': 'nothing'
+  'neither':
+    'prefix': 'nh'
+    'body': 'neither'
+  'night':
+    'prefix': 'ni'
+    'body': 'night'
+  'across':
+    'prefix': 'nj'
+    'body': 'across'
+  'thank':
+    'prefix': 'nk'
+    'body': 'thank'
+  'general':
+    'prefix': 'nl'
+    'body': 'general'
+  'handsome':
+    'prefix': 'nm'
+    'body': 'handsome'
+  'continued':
+    'prefix': 'nn'
+    'body': 'continued'
+  'carried':
+    'prefix': 'np'
+    'body': 'carried'
+  'worse':
+    'prefix': 'nq'
+    'body': 'worse'
+  'near':
+    'prefix': 'nr'
+    'body': 'near'
+  'hands':
+    'prefix': 'ns'
+    'body': 'hands'
+  'next':
+    'prefix': 'nt'
+    'body': 'next'
+  'nature':
+    'prefix': 'nu'
+    'body': 'nature'
+  'answer':
+    'prefix': 'nw'
+    'body': 'answer'
+  'chair':
+    'prefix': 'nx'
+    'body': 'chair'
+  'money':
+    'prefix': 'ny'
+    'body': 'money'
+  'tone':
+    'prefix': 'nz'
+    'body': 'tone'
+  'not':
+    'prefix': 'o'
+    'body': 'not'
+  'road':
+    'prefix': 'oa'
+    'body': 'road'
+  'observed':
+    'prefix': 'ob'
+    'body': 'observed'
+  'once':
+    'prefix': 'oc'
+    'body': 'once'
+  'stood':
+    'prefix': 'od'
+    'body': 'stood'
+  'done':
+    'prefix': 'oe'
+    'body': 'done'
+  'together':
+    'prefix': 'og'
+    'body': 'together'
+  'sometimes':
+    'prefix': 'oi'
+    'body': 'sometimes'
+  'object':
+    'prefix': 'oj'
+    'body': 'object'
+  'whole':
+    'prefix': 'ol'
+    'body': 'whole'
+  'home':
+    'prefix': 'om'
+    'body': 'home'
+  'took':
+    'prefix': 'oo'
+    'body': 'took'
+  'open':
+    'prefix': 'op'
+    'body': 'open'
+  'standing':
+    'prefix': 'oq'
+    'body': 'standing'
+  'whose':
+    'prefix': 'os'
+    'body': 'whose'
+  'other':
+    'prefix': 'ot'
+    'body': 'other'
+  'ought':
+    'prefix': 'ou'
+    'body': 'ought'
+  'over':
+    'prefix': 'ov'
+    'body': 'over'
+  'town':
+    'prefix': 'ow'
+    'body': 'town'
+  'sorry':
+    'prefix': 'ox'
+    'body': 'sorry'
+  'only':
+    'prefix': 'oy'
+    'body': 'only'
+  'stand':
+    'prefix': 'oz'
+    'body': 'stand'
+  'were':
+    'prefix': 'p'
+    'body': 'were'
+  'part':
+    'prefix': 'pa'
+    'body': 'part'
+  'probably':
+    'prefix': 'pb'
+    'body': 'probably'
+  'appearance':
+    'prefix': 'pc'
+    'body': 'appearance'
+  'passed':
+    'prefix': 'pd'
+    'body': 'passed'
+  'perhaps':
+    'prefix': 'pe'
+    'body': 'perhaps'
+  'perfectly':
+    'prefix': 'pf'
+    'body': 'perfectly'
+  'speaking':
+    'prefix': 'pg'
+    'body': 'speaking'
+  'possible':
+    'prefix': 'pi'
+    'body': 'possible'
+  'meet':
+    'prefix': 'pj'
+    'body': 'meet'
+  'place':
+    'prefix': 'pl'
+    'body': 'place'
+  'promise':
+    'prefix': 'pm'
+    'body': 'promise'
+  'person':
+    'prefix': 'pn'
+    'body': 'person'
+  'poor':
+    'prefix': 'po'
+    'body': 'poor'
+  'people':
+    'prefix': 'pp'
+    'body': 'people'
+  'instead':
+    'prefix': 'pq'
+    'body': 'instead'
+  'present':
+    'prefix': 'pr'
+    'body': 'present'
+  'pleasure':
+    'prefix': 'ps'
+    'body': 'pleasure'
+  'point':
+    'prefix': 'pt'
+    'body': 'point'
+  'purpose':
+    'prefix': 'pu'
+    'body': 'purpose'
+  'power':
+    'prefix': 'pw'
+    'body': 'power'
+  'wished':
+    'prefix': 'px'
+    'body': 'wished'
+  'pretty':
+    'prefix': 'py'
+    'body': 'pretty'
+  'sound':
+    'prefix': 'pz'
+    'body': 'sound'
+  'would':
+    'prefix': 'q'
+    'body': 'would'
+  'silent':
+    'prefix': 'qa'
+    'body': 'silent'
+  'common':
+    'prefix': 'qb'
+    'body': 'common'
+  'meant':
+    'prefix': 'qc'
+    'body': 'meant'
+  'tried':
+    'prefix': 'qd'
+    'body': 'tried'
+  'until':
+    'prefix': 'qe'
+    'body': 'until'
+  'mouth':
+    'prefix': 'qf'
+    'body': 'mouth'
+  'occasion':
+    'prefix': 'qg'
+    'body': 'occasion'
+  'marry':
+    'prefix': 'qh'
+    'body': 'marry'
+  'length':
+    'prefix': 'qj'
+    'body': 'length'
+  'story':
+    'prefix': 'ql'
+    'body': 'story'
+  'street':
+    'prefix': 'qm'
+    'body': 'street'
+  'question':
+    'prefix': 'qn'
+    'body': 'question'
+  'remained':
+    'prefix': 'qo'
+    'body': 'remained'
+  'become':
+    'prefix': 'qp'
+    'body': 'become'
+  'loved':
+    'prefix': 'qq'
+    'body': 'loved'
+  'seem':
+    'prefix': 'qs'
+    'body': 'seem'
+  'quiet':
+    'prefix': 'qt'
+    'body': 'quiet'
+  'quite':
+    'prefix': 'qu'
+    'body': 'quite'
+  'ladies':
+    'prefix': 'qv'
+    'body': 'ladies'
+  'marriage':
+    'prefix': 'qw'
+    'body': 'marriage'
+  'book':
+    'prefix': 'qx'
+    'body': 'book'
+  'I\'ve':
+    'prefix': 'qz'
+    'body': 'I\'ve'
+  'from':
+    'prefix': 'r'
+    'body': 'from'
+  'rather':
+    'prefix': 'ra'
+    'body': 'rather'
+  'trouble':
+    'prefix': 'rb'
+    'body': 'trouble'
+  'received':
+    'prefix': 'rc'
+    'body': 'received'
+  'round':
+    'prefix': 'rd'
+    'body': 'round'
+  'strong':
+    'prefix': 'rg'
+    'body': 'strong'
+  'truth':
+    'prefix': 'rh'
+    'body': 'truth'
+  'right':
+    'prefix': 'ri'
+    'body': 'right'
+  'obliged':
+    'prefix': 'rj'
+    'body': 'obliged'
+  'struck':
+    'prefix': 'rk'
+    'body': 'struck'
+  'hardly':
+    'prefix': 'rl'
+    'body': 'hardly'
+  'remember':
+    'prefix': 'rm'
+    'body': 'remember'
+  'reason':
+    'prefix': 'rn'
+    'body': 'reason'
+  'room':
+    'prefix': 'ro'
+    'body': 'room'
+  'replied':
+    'prefix': 'rp'
+    'body': 'replied'
+  'particular':
+    'prefix': 'rq'
+    'body': 'particular'
+  'return':
+    'prefix': 'rr'
+    'body': 'return'
+  'rest':
+    'prefix': 'rs'
+    'body': 'rest'
+  'returned':
+    'prefix': 'rt'
+    'body': 'returned'
+  'true':
+    'prefix': 'ru'
+    'body': 'true'
+  'resolved':
+    'prefix': 'rv'
+    'body': 'resolved'
+  'forward':
+    'prefix': 'rw'
+    'body': 'forward'
+  'pass':
+    'prefix': 'rx'
+    'body': 'pass'
+  'really':
+    'prefix': 'ry'
+    'body': 'really'
+  'knowing':
+    'prefix': 'rz'
+    'body': 'knowing'
+  'she':
+    'prefix': 's'
+    'body': 'she'
+  'same':
+    'prefix': 'sa'
+    'body': 'same'
+  'subject':
+    'prefix': 'sb'
+    'body': 'subject'
+  'since':
+    'prefix': 'sc'
+    'body': 'since'
+  'seemed':
+    'prefix': 'sd'
+    'body': 'seemed'
+  'some':
+    'prefix': 'se'
+    'body': 'some'
+  'itself':
+    'prefix': 'sf'
+    'body': 'itself'
+  'something':
+    'prefix': 'sg'
+    'body': 'something'
+  'should':
+    'prefix': 'sh'
+    'body': 'should'
+  'side':
+    'prefix': 'si'
+    'body': 'side'
+  'former':
+    'prefix': 'sj'
+    'body': 'former'
+  'spoke':
+    'prefix': 'sk'
+    'body': 'spoke'
+  'shall':
+    'prefix': 'sl'
+    'body': 'shall'
+  'small':
+    'prefix': 'sm'
+    'body': 'small'
+  'soon':
+    'prefix': 'sn'
+    'body': 'soon'
+  'speak':
+    'prefix': 'sp'
+    'body': 'speak'
+  'blood':
+    'prefix': 'sq'
+    'body': 'blood'
+  'sure':
+    'prefix': 'sr'
+    'body': 'sure'
+  'miss':
+    'prefix': 'ss'
+    'body': 'miss'
+  'still':
+    'prefix': 'st'
+    'body': 'still'
+  'such':
+    'prefix': 'su'
+    'body': 'such'
+  'several':
+    'prefix': 'sv'
+    'body': 'several'
+  'show':
+    'prefix': 'sw'
+    'body': 'show'
+  'sake':
+    'prefix': 'sx'
+    'body': 'sake'
+  'says':
+    'prefix': 'sy'
+    'body': 'says'
+  'fortune':
+    'prefix': 'sz'
+    'body': 'fortune'
+  'the':
+    'prefix': 't'
+    'body': 'the'
+  'take':
+    'prefix': 'ta'
+    'body': 'take'
+  'table':
+    'prefix': 'tb'
+    'body': 'table'
+  'distance':
+    'prefix': 'tc'
+    'body': 'distance'
+  'told':
+    'prefix': 'td'
+    'body': 'told'
+  'then':
+    'prefix': 'te'
+    'body': 'then'
+  'therefore':
+    'prefix': 'tf'
+    'body': 'therefore'
+  'through':
+    'prefix': 'tg'
+    'body': 'through'
+  'there':
+    'prefix': 'th'
+    'body': 'there'
+  'time':
+    'prefix': 'ti'
+    'body': 'time'
+  'presence':
+    'prefix': 'tj'
+    'body': 'presence'
+  'think':
+    'prefix': 'tk'
+    'body': 'think'
+  'tell':
+    'prefix': 'tl'
+    'body': 'tell'
+  'them':
+    'prefix': 'tm'
+    'body': 'them'
+  'than':
+    'prefix': 'tn'
+    'body': 'than'
+  'stopped':
+    'prefix': 'tp'
+    'body': 'stopped'
+  'feelings':
+    'prefix': 'tq'
+    'body': 'feelings'
+  'their':
+    'prefix': 'tr'
+    'body': 'their'
+  'these':
+    'prefix': 'ts'
+    'body': 'these'
+  'thought':
+    'prefix': 'tt'
+    'body': 'thought'
+  'though':
+    'prefix': 'tu'
+    'body': 'though'
+  'themselves':
+    'prefix': 'tv'
+    'body': 'themselves'
+  'towards':
+    'prefix': 'tw'
+    'body': 'towards'
+  'corner':
+    'prefix': 'tx'
+    'body': 'corner'
+  'certainly':
+    'prefix': 'ty'
+    'body': 'certainly'
+  'talking':
+    'prefix': 'tz'
+    'body': 'talking'
+  'but':
+    'prefix': 'u'
+    'body': 'but'
+  'natural':
+    'prefix': 'ua'
+    'body': 'natural'
+  'circumstances':
+    'prefix': 'uc'
+    'body': 'circumstances'
+  'turned':
+    'prefix': 'ud'
+    'body': 'turned'
+  'suppose':
+    'prefix': 'ue'
+    'body': 'suppose'
+  'beautiful':
+    'prefix': 'uf'
+    'body': 'beautiful'
+  'turning':
+    'prefix': 'ug'
+    'body': 'turning'
+  'during':
+    'prefix': 'ui'
+    'body': 'during'
+  'spirit':
+    'prefix': 'uj'
+    'body': 'spirit'
+  'foot':
+    'prefix': 'uk'
+    'body': 'foot'
+  'usual':
+    'prefix': 'ul'
+    'body': 'usual'
+  'upon':
+    'prefix': 'un'
+    'body': 'upon'
+  'supposed':
+    'prefix': 'uo'
+    'body': 'supposed'
+  'wind':
+    'prefix': 'uq'
+    'body': 'wind'
+  'under':
+    'prefix': 'ur'
+    'body': 'under'
+  'understand':
+    'prefix': 'ut'
+    'body': 'understand'
+  'presently':
+    'prefix': 'uv'
+    'body': 'presently'
+  'comes':
+    'prefix': 'uw'
+    'body': 'comes'
+  'attention':
+    'prefix': 'ux'
+    'body': 'attention'
+  'suddenly':
+    'prefix': 'uy'
+    'body': 'suddenly'
+  'wait':
+    'prefix': 'uz'
+    'body': 'wait'
+  'have':
+    'prefix': 'v'
+    'body': 'have'
+  'play':
+    'prefix': 'vb'
+    'body': 'play'
+  'service':
+    'prefix': 'vc'
+    'body': 'service'
+  'lived':
+    'prefix': 'vd'
+    'body': 'lived'
+  'very':
+    'prefix': 've'
+    'body': 'very'
+  'easy':
+    'prefix': 'vf'
+    'body': 'easy'
+  'everything':
+    'prefix': 'vg'
+    'body': 'everything'
+  'real':
+    'prefix': 'vh'
+    'body': 'real'
+  'living':
+    'prefix': 'vi'
+    'body': 'living'
+  'clear':
+    'prefix': 'vj'
+    'body': 'clear'
+  'worth':
+    'prefix': 'vk'
+    'body': 'worth'
+  'cause':
+    'prefix': 'vm'
+    'body': 'cause'
+  'giving':
+    'prefix': 'vn'
+    'body': 'giving'
+  'voice':
+    'prefix': 'vo'
+    'body': 'voice'
+  'send':
+    'prefix': 'vp'
+    'body': 'send'
+  'spirits':
+    'prefix': 'vq'
+    'body': 'spirits'
+  'visit':
+    'prefix': 'vt'
+    'body': 'visit'
+  'chance':
+    'prefix': 'vu'
+    'body': 'chance'
+  'didn\'t':
+    'prefix': 'vv'
+    'body': 'didn\'t'
+  'view':
+    'prefix': 'vw'
+    'body': 'view'
+  'pleasant':
+    'prefix': 'vx'
+    'body': 'pleasant'
+  'party':
+    'prefix': 'vy'
+    'body': 'party'
+  'beginning':
+    'prefix': 'vz'
+    'body': 'beginning'
+  'was':
+    'prefix': 'w'
+    'body': 'was'
+  'want':
+    'prefix': 'wa'
+    'body': 'want'
+  'horses':
+    'prefix': 'wb'
+    'body': 'horses'
+  'world':
+    'prefix': 'wd'
+    'body': 'world'
+  'wife':
+    'prefix': 'wf'
+    'body': 'wife'
+  'wrong':
+    'prefix': 'wg'
+    'body': 'wrong'
+  'where':
+    'prefix': 'wh'
+    'body': 'where'
+  'will':
+    'prefix': 'wi'
+    'body': 'will'
+  'notice':
+    'prefix': 'wj'
+    'body': 'notice'
+  'work':
+    'prefix': 'wk'
+    'body': 'work'
+  'well':
+    'prefix': 'wl'
+    'body': 'well'
+  'whom':
+    'prefix': 'wm'
+    'body': 'whom'
+  'went':
+    'prefix': 'wn'
+    'body': 'went'
+  'woman':
+    'prefix': 'wo'
+    'body': 'woman'
+  'duty':
+    'prefix': 'wp'
+    'body': 'duty'
+  'he\'s':
+    'prefix': 'wq'
+    'body': 'he\'s'
+  'word':
+    'prefix': 'wr'
+    'body': 'word'
+  'words':
+    'prefix': 'ws'
+    'body': 'words'
+  'without':
+    'prefix': 'wt'
+    'body': 'without'
+  'whatever':
+    'prefix': 'wv'
+    'body': 'whatever'
+  'window':
+    'prefix': 'ww'
+    'body': 'window'
+  'figure':
+    'prefix': 'wx'
+    'body': 'figure'
+  'twenty':
+    'prefix': 'wy'
+    'body': 'twenty'
+  'leaving':
+    'prefix': 'wz'
+    'body': 'leaving'
+  'when':
+    'prefix': 'x'
+    'body': 'when'
+  'sleep':
+    'prefix': 'xa'
+    'body': 'sleep'
+  'entirely':
+    'prefix': 'xb'
+    'body': 'entirely'
+  'exclaimed':
+    'prefix': 'xc'
+    'body': 'exclaimed'
+  'expected':
+    'prefix': 'xd'
+    'body': 'expected'
+  'fall':
+    'prefix': 'xe'
+    'body': 'fall'
+  'months':
+    'prefix': 'xf'
+    'body': 'months'
+  'broken':
+    'prefix': 'xg'
+    'body': 'broken'
+  'secret':
+    'prefix': 'xh'
+    'body': 'secret'
+  'thousand':
+    'prefix': 'xi'
+    'body': 'thousand'
+  'happiness':
+    'prefix': 'xj'
+    'body': 'happiness'
+  'minute':
+    'prefix': 'xk'
+    'body': 'minute'
+  'human':
+    'prefix': 'xl'
+    'body': 'human'
+  'fancy':
+    'prefix': 'xm'
+    'body': 'fancy'
+  'strength':
+    'prefix': 'xo'
+    'body': 'strength'
+  'showed':
+    'prefix': 'xp'
+    'body': 'showed'
+  'pounds':
+    'prefix': 'xq'
+    'body': 'pounds'
+  'nearly':
+    'prefix': 'xr'
+    'body': 'nearly'
+  'captain':
+    'prefix': 'xs'
+    'body': 'captain'
+  'expect':
+    'prefix': 'xt'
+    'body': 'expect'
+  'piece':
+    'prefix': 'xu'
+    'body': 'piece'
+  'school':
+    'prefix': 'xv'
+    'body': 'school'
+  'write':
+    'prefix': 'xw'
+    'body': 'write'
+  'reached':
+    'prefix': 'xx'
+    'body': 'reached'
+  'exactly':
+    'prefix': 'xy'
+    'body': 'exactly'
+  'repeated':
+    'prefix': 'xz'
+    'body': 'repeated'
+  'you':
+    'prefix': 'y'
+    'body': 'you'
+  'walking':
+    'prefix': 'ya'
+    'body': 'walking'
+  'father\'s':
+    'prefix': 'yb'
+    'body': 'father\'s'
+  'heaven':
+    'prefix': 'yc'
+    'body': 'heaven'
+  'beyond':
+    'prefix': 'yd'
+    'body': 'beyond'
+  'years':
+    'prefix': 'ye'
+    'body': 'years'
+  'yourself':
+    'prefix': 'yf'
+    'body': 'yourself'
+  'young':
+    'prefix': 'yg'
+    'body': 'young'
+  'saying':
+    'prefix': 'yi'
+    'body': 'saying'
+  'beauty':
+    'prefix': 'yj'
+    'body': 'beauty'
+  'shook':
+    'prefix': 'yk'
+    'body': 'shook'
+  'waiting':
+    'prefix': 'ym'
+    'body': 'waiting'
+  'your':
+    'prefix': 'yo'
+    'body': 'your'
+  'desire':
+    'prefix': 'yp'
+    'body': 'desire'
+  'news':
+    'prefix': 'yq'
+    'body': 'news'
+  'year':
+    'prefix': 'yr'
+    'body': 'year'
+  'front':
+    'prefix': 'yt'
+    'body': 'front'
+  'laugh':
+    'prefix': 'yv'
+    'body': 'laugh'
+  'uncle':
+    'prefix': 'yw'
+    'body': 'uncle'
+  'miles':
+    'prefix': 'yx'
+    'body': 'miles'
+  'caught':
+    'prefix': 'yz'
+    'body': 'caught'
+  'what':
+    'prefix': 'z'
+    'body': 'what'
+  'regard':
+    'prefix': 'za'
+    'body': 'regard'
+  'easily':
+    'prefix': 'zb'
+    'body': 'easily'
+  'glass':
+    'prefix': 'zc'
+    'body': 'glass'
+  'consider':
+    'prefix': 'zd'
+    'body': 'consider'
+  'green':
+    'prefix': 'ze'
+    'body': 'green'
+  'considered':
+    'prefix': 'zf'
+    'body': 'considered'
+  'unless':
+    'prefix': 'zg'
+    'body': 'unless'
+  'stop':
+    'prefix': 'zh'
+    'body': 'stop'
+  'forth':
+    'prefix': 'zi'
+    'body': 'forth'
+  'altogether':
+    'prefix': 'zj'
+    'body': 'altogether'
+  'surprise':
+    'prefix': 'zk'
+    'body': 'surprise'
+  'sudden':
+    'prefix': 'zl'
+    'body': 'sudden'
+  'free':
+    'prefix': 'zm'
+    'body': 'free'
+  'grave':
+    'prefix': 'zn'
+    'body': 'grave'
+  'carriage':
+    'prefix': 'zo'
+    'body': 'carriage'
+  'believed':
+    'prefix': 'zp'
+    'body': 'believed'
+  'putting':
+    'prefix': 'zq'
+    'body': 'putting'
+  'carry':
+    'prefix': 'zr'
+    'body': 'carry'
+  'mentioned':
+    'prefix': 'zs'
+    'body': 'mentioned'
+  'looks':
+    'prefix': 'zt'
+    'body': 'looks'
+  'scarcely':
+    'prefix': 'zu'
+    'body': 'scarcely'
+  'society':
+    'prefix': 'zv'
+    'body': 'society'
+  'affection':
+    'prefix': 'zw'
+    'body': 'affection'
+  'dress':
+    'prefix': 'zx'
+    'body': 'dress'
+  'earth':
+    'prefix': 'zy'
+    'body': 'earth'
